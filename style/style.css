@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #BDBDBD;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Cabeçalho*/
+header {
+    background-color: #808080;
+    height: 82px;
+    padding: 35px 0 33px 0;
+}
+
+header h1 {
+    color: white;
+    height: 32px;
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+}
+
+header p {
+    color: white;
+    height: 20px;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+}
+/*Fim do Cabeçalho*/
+
+/*Conteudo Principal*/
+main, footer {
+    max-width: 940px;
+    min-width: 290px;
+    padding: 30px;
+    margin: auto;
+    background-color: #D7D7D7;
+}
+
+main h2, footer h2 {
+    height: 24px;
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #202020;
+}
+
+
+main p, footer p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+main img {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+ul {
+    list-style-position: inside;
+    margin-bottom: 30px;
+}
+
+#final {
+    margin: 0;
+}
+/*Fim do Conteudo Principal*/
+
+/*Rodapé*/
+footer {
+    margin-top: 50px;
+}
+
+footer ul {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/*Fim do Rodapé*/
+
+/*media query*/
+@media (max-width: 384px) {
+    header {
+        height: 110px;
+        padding: 20px 0;
+    }
+
+    header > h1 {
+        height: 90px;
+        margin: 0;
+    }
+
+    .bug {
+        height: 51px;
+    }
+}
