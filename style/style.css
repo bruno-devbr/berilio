@@ -60,6 +60,10 @@ main p, footer p {
     color: black;
 }
 
+abbr {
+    text-decoration: none;
+}
+
 main img {
     margin-bottom: 30px;
     width: 100%;
